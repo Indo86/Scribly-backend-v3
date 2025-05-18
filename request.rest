@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{   
+    "title": "Rencana Perjalanan",
+    "text": "Mengunjungi Yogyakarta untuk riset lapangan",
+    "pinned": false,
+    "bookmarked": true,
+    "createdAt": "2025-03-23T15:00:00Z"
+}
+
+###
+POST http://localhost:5000/api/notes 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQ3NTA1NDMxLCJleHAiOjE3NDc1OTE4MzF9.jv9YfgMJU9i1l3Gg_deU-4RcYizBnsQrPIpSJo-KWt4
+
+{
+     "title": "Rencana Perjalanan 5",
+    "text": "Mengunjungi Yogyakarta untuk riset lapangan 5",
+    "pinned": false,
+    "bookmarked": true,
+    "createdAt": "2025-07-23T15:00:00Z"
+}

@@ -1,0 +1,53 @@
+### GET ALL USERS
+GET http://localhost:5000/api/user
+
+### GET USER BY ID
+GET http://localhost:5000/api/user/1
+
+### POST USER
+POST http://localhost:5000/api/user 
+Content-Type: application/json
+
+{
+    "name": "tes",
+    "email": "tes@tes.com",
+    "gender": "Male"
+}
+
+### EDIT USER
+PUT http://localhost:5000/api/user/14
+Content-Type: application/json
+
+{
+    "name": "tessss",
+    "email": "tesss@tessss.com",
+    "gender": "Male"
+}
+
+### DELETE USER
+DELETE http://localhost:5000/api/user/891
+
+### REGISTER USER
+POST http://localhost:5000/api/user/register
+Content-Type: application/json
+
+{
+    "name": "tessss",
+    "email": "tesss@tessss.com",
+    "gender": "Male",
+    "password": "123456"
+}
+
+### LOGIN USER
+POST http://localhost:5000/api/user/login
+Content-Type: application/json
+
+{
+  "email": "tesss@tessss.com",
+  "password": "1234567"
+}
+
+### LOGOUT
+POST http://localhost:5000/api/user/logout
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ0ZXNzc0B0ZXNzc3MuY29tIiwiaWF0IjoxNzQ3NTMyNTc0LCJleHAiOjE3NDc1MzI2MDR9.8ozGcm2O4G2cg2TXF1Km7hs40ZYr2ouQ_XHDv3BOE5I
