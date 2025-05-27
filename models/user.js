@@ -20,7 +20,10 @@ const User = db.define(
       type: Sequelize.STRING,
       allowNull: false,
     },
-    refresh_token: Sequelize.TEXT,
+    refresh_token: {
+      type: Sequelize.TEXT,
+      allowNull: true, 
+    }
   },
   {
     freezeTableName: true,
