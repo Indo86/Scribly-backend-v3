@@ -200,5 +200,4 @@ dotenv
 Sequelize / Mongoose
 
 
-Silakan copy langsung ke file `README.md`. Kalau kamu punya route tambahan seperti `upload`, `pagination`, atau `search`, beri tahu saja biar aku bantu lengkapi.
 
